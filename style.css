@@ -1,0 +1,64 @@
+html {
+  font-size: 62.5%;
+}
+body {
+  /*  */
+  margin: 0;
+  padding: 5rem;
+  /* height: 100vh;
+  width: 100vh; */
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  margin: auto;
+  padding: 2rem;
+  background-color: rgb(206, 139, 139);
+  display: flex;
+  justify-content: space-around;
+  height: 50vh;
+  width: 100vh;
+  border: 2rem solid brown;
+}
+
+section {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between;
+   */
+  gap: 10rem;
+}
+h1 {
+  font-size: 3rem;
+}
+
+.img-container {
+  width: 7rem;
+}
+img {
+  max-width: 100%;
+}
+.container {
+  font-size: 3rem;
+}
+.btn {
+  padding: 2rem;
+  border-radius: 20%;
+  font-size: 2.5rem;
+  color: white;
+  background-color: brown;
+  cursor: pointer;
+}
+.add-border {
+  padding: 1rem 2rem;
+  border: 0.5rem solid black;
+  border-radius: 30%;
+}
+.player {
+  padding: 1rem 2rem;
+  background-color: rgb(238, 192, 123);
+}
