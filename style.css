@@ -3,10 +3,10 @@ html {
 }
 body {
   /*  */
-  margin: 0;
+  margin: 0 auto;
   padding: 5rem;
-  /* height: 100vh;
-  width: 100vh; */
+  /* height: 100vh; */
+  /* width: 100vh; */
   box-sizing: border-box;
   display: flex;
   justify-content: center;
@@ -61,4 +61,23 @@ img {
 .player {
   padding: 1rem 2rem;
   background-color: rgb(238, 192, 123);
+}
+
+.End {
+  margin: 10rem auto;
+  padding: 5rem 10rem;
+  background-color: antiquewhite;
+  color: rgb(32, 214, 32);
+  border: 0.7rem solid rgb(32, 214, 32);
+  border-radius: 15%;
+}
+.reset {
+  color: rgb(32, 214, 32);
+  font-size: 2rem;
+  background-color: antiquewhite;
+  padding: 2rem;
+  border: 0.3rem solid rgb(32, 214, 32);
+  border-radius: 15%;
+  cursor: pointer;
+  font-weight: 800;
 }
